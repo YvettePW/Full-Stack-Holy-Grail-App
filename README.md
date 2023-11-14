@@ -7,7 +7,7 @@ To run this on your machine, download the files and follow these steps:<br>
 2. Make sure Docker is running.<br>
 3. Open a terminal window and navigate to the file folder.<br>
 4. Type docker run -p 6379:6379 --name some-redis -d redis:4.0.1<br>
-5. Type npm install redis@4.0.1
+5. Type npm install redis@4.0.1<br>
 6. Type node index.js<br>
 7. Go to http://localhost:3000 and test out the plus and minus buttons or go to one of the branches and change the number that way, such as http://localhost:3000/right/5 then http://localhost:3000/data to see your result.
 <br></br>
