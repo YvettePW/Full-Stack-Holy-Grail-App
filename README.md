@@ -1,6 +1,6 @@
 # Full-Stack-Holy-Grail-App
 ## Full Stack Holy Grail App Project
-<img src="userinterfaceholygrail.png" width='300'/>
+<img src="userinterfaceholygrail.jpg" width='300'/>
 Through the use of React and Superagent on the client side, Expres and Node at the HTTP server, and Redis and Docker for data store, this exercise demonstrates a full-stack application, with synchronized communication between the client, server, and data store.<br></br>
 To run this on your machine, download the files and follow these steps:<br>
 1. Make sure Docker is running.<br>
