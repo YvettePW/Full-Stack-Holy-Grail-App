@@ -3,12 +3,13 @@
 <img src="userinterfaceholygrail.jpg" width='300'/>
 Through the use of React and Superagent on the client side, Expres and Node at the HTTP server, and Redis and Docker for data store, this exercise demonstrates a full-stack application, with synchronized communication between the client, server, and data store.<br></br>
 To run this on your machine, download the files and follow these steps:<br>
-1. Make sure Docker is running.<br>
-2. Open a terminal window and navigate to the file folder.<br>
-3. Type docker run -p 6379:6379 --name some-redis -d redis:4.0.1<br>
-4. Type npm install redis@4.0.1
-3. Type node index.js<br>
-4. Go to http://localhost:3000 and test out the plus and minus buttons or go to one of the branches and change the number that way, such as http://localhost:3000/right/5 then http://localhost:3000/data to see your result.
+1. Download the code to your machine.<br>
+2. Make sure Docker is running.<br>
+3. Open a terminal window and navigate to the file folder.<br>
+4. Type docker run -p 6379:6379 --name some-redis -d redis:4.0.1<br>
+5. Type npm install redis@4.0.1
+6. Type node index.js<br>
+7. Go to http://localhost:3000 and test out the plus and minus buttons or go to one of the branches and change the number that way, such as http://localhost:3000/right/5 then http://localhost:3000/data to see your result.
 <br></br>
 This is basic and foundational, but additional functionality could be endless. The user interface can be changed in many ways to suit many needs.<br></br>
 MIT License<br></br>
